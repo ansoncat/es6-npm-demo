@@ -2,16 +2,18 @@
   "name": "es-new-starter",
   "version": "0.0.1",
   "description": "Starter kit for new ECMAScript 6 and beyond",
-  "main": "index.js",
+  "main": "lib/md5.js",
   "keywords": [
     "ECMAScript"
   ],
   "author": "Anson Chen",
   "license": "MIT",
+  "bin": { "md5" : "./lib/md5.js" },
   "scripts": {
     "clear": "rm -rf ./lib",
     "build": "npm run clear && babel src -d lib",
     "prepublish": "npm run build",
+    "start": "npm run build && node lib/md5.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
