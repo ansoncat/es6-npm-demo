@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Starter kit for new ECMAScript 6 and beyond",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "ECMAScript"
   ],
@@ -14,7 +11,8 @@
   "scripts": {
     "clear": "rm -rf ./lib",
     "build": "npm run clear && babel src -d lib",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",
