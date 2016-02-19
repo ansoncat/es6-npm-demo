@@ -1,8 +1,7 @@
   "use strict"
- // import crypto from 'crypto'
+  import crypto from 'crypto'
+  import fs from 'fs'
   const filename = process.argv[2],
-	crypto = require('crypto'),
-	fs = require('fs'),
 	shasum = crypto.createHash('md5'),
 	s = fs.ReadStream(filename)
 
