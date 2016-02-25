@@ -8,7 +8,7 @@ import { expect } from 'chai'
 
 describe('MD5', () => {
   it('should sum md5 correctly', (done) => {
-    md5(s, (sum) => {
+    md5(s).then((sum) => {
       expect(sum).to.equal('b711b1aad4df9f6e7f5b511531cc5077')
       done()
     })
