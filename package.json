@@ -1,6 +1,6 @@
 {
   "name": "es6-npm-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ECMAScript 6+ npm package demo",
   "main": "lib/md5.js",
   "keywords": [
