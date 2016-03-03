@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict'
 
 import md5 from './md5'
